@@ -1,8 +1,43 @@
-Project Overview:
+**Project Overview**
 
 The primary objective of this project is to develop predictive models for housing prices.
 
-Notebooks:
+The raw data file was obtained from https://catalog.data.gov/dataset/real-estate-sales-2001-2018.
+
+**Data Dictionary**
+
+`serial number`: Serial Number
+
+`list year`: Year the property was listed for sale
+
+`date recorded`: Date the sale was recorded locally
+
+`town`: Town name
+
+`address`: Address
+
+`assessed value`: Value of the psroperty used for local tax assesment
+
+>With the exception of certain classified land, the assessment of each parcel of real property represents 70% of its estimated fair market value as of the date of a revaluation (Chapter 203 - Sec. 12-62, Sec. 12-62a and Sec. 12-63)
+
+`sale amount`: Amount the property was sold for
+
+`sales ratio`: Ratio of the sale price to the assessed value
+
+`property type`: Type of property including: Residential, Commercial, Industrial, Apartments, Vacant, etc
+
+`residential type`: Indicates whether property is single or multifamily residential
+
+`Non Use Code`: Non usable sale code typically means the sale price is not reliable for use in the determination of a property value. See attachments in the dataset description page for a listing of codes
+
+`Assessor Remarks`: Remarks from the  municipal assessor
+
+`OPM remarks`: Remarks from OPM, Office of Policy and Management
+
+`Location`: Lat / lon coordinates
+
+
+**Notebooks**
 
 EDA before Data Cleaning:
 This notebook performs an exploratory data analysis (EDA) on the raw data, providing an initial understanding of the dataset.
@@ -21,7 +56,7 @@ This notebook focuses on the final stages of data cleaning. It involves the remo
 Raw Data Source:
 Real Estate Sales 2001-2020 - CT.gov
 
-Additional Files:
+**Additional Files**
 
 Presentation Slides
 
